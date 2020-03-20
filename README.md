@@ -46,7 +46,9 @@ Enviar request POST para o endpoint http://localhost:8080/pedidos com o seguinte
 }
 ```
 **XML**<br>
-Colocar o seguinte header no request: `Accept:application/xml`<br>
+Colocar os seguintes headers no request:<br>
+`Accept:application/xml`<br>
+`Content-type:application/xml`<br>
 Enviar request POST para o endpoint http://localhost:8080/pedidos com o seguinte corpo na requisição:
 ```
 <PedidosDTO>
